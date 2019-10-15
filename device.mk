@@ -412,6 +412,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.1.vendor
 
+# RealmeParts
+PRODUCT_PACKAGES += \
+    RealmeParts
+
 # RIL
 PRODUCT_PACKAGES += \
     android.hardware.radio@1.4 \
