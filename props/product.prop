@@ -9,4 +9,25 @@ ro.telephony.block_binder_thread_on_incoming_calls=false
 
 # LMKD
 ro.config.low_ram=false
-ro.lmk.log_stats=true
+ro.config.per_app_memcg=false
+ro.lmk.log_stats=false
+ro.lmk.use_psi=true
+ro.lmk.use_minfree_levels=false
+ro.lmk.low=1001
+ro.lmk.medium=600
+ro.lmk.critical=100
+ro.lmk.critical_upgrade=false
+ro.lmk.upgrade_pressure=100
+ro.lmk.downgrade_pressure=100
+ro.lmk.kill_heaviest_task=true
+ro.lmk.kill_timeout_ms=0
+ro.lmk.debug=false
+ro.lmk.use_new_strategy=true
+ro.lmk.psi_partial_stall_ms=100
+ro.lmk.psi_complete_stall_ms=700
+ro.lmk.thrashing_limit=90
+ro.lmk.thrashing_limit_decay=10
+ro.lmk.swap_util_max=95
+ro.lmk.swap_free_low_percentage=5
+ro.lmk.filecache_min_kb=0
+ro.lmk.stall_limit_critical=100
