@@ -86,7 +86,7 @@ TARGET_KERNEL_SOURCE := kernel/realme/r5x
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CLANG_VERSION := straton
 TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-straton
-TARGET_KERNEL_CONFIG := biofrost_defconfig
+TARGET_KERNEL_CONFIG := straton_defconfig
 TARGET_KERNEL_ADDITIONAL_FLAGS := \
    HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-line-argument"
 
