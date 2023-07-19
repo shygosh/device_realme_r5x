@@ -1,6 +1,5 @@
 # ADSP - from RMX2050_11.C.10 qssi-user-RKQ1.200903.002
 vendor/bin/adsprpcd|b736b00857d64e74a3b9be887215124d186f95d5
-vendor/etc/init/vendor.qti.adsprpc-sscrpc-service.rc|f34d2b7067b6f2fd8c6b79ad4a9e1b3621ab5a6c
 vendor/lib/libadsp_default_listener.so|0376a56ab5d88e5d118e37f6e6371b30746a97e2
 vendor/lib/libadsprpc.so|1a65103c7891a1fd8019f9dad8d2ec90886fbd8e
 vendor/lib/libmdsprpc.so|1748f39b97ab5800c1269d082acb4f5a5f1d6eb2
@@ -1887,7 +1886,6 @@ vendor/lib64/libmmcamera_tintless_bg_pca_algo.so
 
 # CDSP - from LA.UM.9.11.r1-3900-NICOBAR.0
 vendor/bin/cdsprpcd|ea126ed2f1b11622547239f331b8013320c59ad2
-vendor/etc/init/vendor.qti.cdsprpc-service.rc|36772b70216796e8ef19376d9c6a81ee9ffff549
 vendor/lib/libcdsprpc.so|3f4064f2c26f3bb4eef9175fe5970207f8734130
 vendor/lib/libcdsp_default_listener.so|8bd2281f2c60f768d2e67fccc840d04bbd2e7d51
 vendor/lib/libsysmon_cdsp_skel.so|d30f7863f72cbcb6d5f657ab780bb53e02e1aaa4
