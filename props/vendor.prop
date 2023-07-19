@@ -133,7 +133,7 @@ ro.vendor.use_data_netmgrd=true
 
 # Display
 debug.sf.disable_client_composition_cache=1
-debug.sf.enable_gl_backpressure=1
+debug.sf.enable_gl_backpressure=0
 debug.sf.enable_hwc_vds=0
 debug.sf.enable_transaction_tracing=false
 debug.sf.predict_hwc_composition_strategy=0
