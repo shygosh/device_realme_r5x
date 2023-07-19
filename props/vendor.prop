@@ -156,6 +156,7 @@ vendor.display.enable_optimize_refresh=1
 vendor.display.disable_ui_3d_tonemap=1
 vendor.display.disable_hw_recovery_dump=1
 debug.hwui.renderer=skiagl
+debug.hwui.skia_atrace_enabled=false
 debug.renderengine.backend=skiaglthreaded
 renderthread.skia.reduceopstasksplitting=true
 
