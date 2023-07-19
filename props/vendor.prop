@@ -158,6 +158,7 @@ vendor.display.disable_hw_recovery_dump=1
 debug.hwui.renderer=skiagl
 debug.hwui.skia_atrace_enabled=false
 debug.renderengine.backend=skiaglthreaded
+debug.stagefright.renderengine.backend=threaded
 renderthread.skia.reduceopstasksplitting=true
 
 # DRM
