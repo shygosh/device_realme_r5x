@@ -87,6 +87,16 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         <fqname>@4.0::IMapper/default</fqname>
     </hal>
     <hal format="hidl">
+        <name>android.hardware.secure_element</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>ISecureElement</name>
+            <instance>SIM1</instance>
+            <instance>SIM2</instance>
+        </interface>
+    </hal>
+    <hal format="hidl">
         <name>vendor.display.config</name>
         <transport>hwbinder</transport>
         <version>1.11</version>
@@ -320,17 +330,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     <hal format="hidl">
         <name>vendor.qti.hardware.radio.qtiradio</name>
         <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>IQtiRadio</name>
-            <instance>slot1</instance>
-            <instance>slot2</instance>
-        </interface>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.qti.hardware.radio.qtiradio</name>
-        <transport>hwbinder</transport>
-        <version>2.3</version>
+        <version>2.4</version>
         <interface>
             <name>IQtiRadio</name>
             <instance>slot1</instance>
@@ -349,7 +349,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     <hal format="hidl">
         <name>android.hardware.keymaster</name>
         <transport>hwbinder</transport>
-        <version>4.0</version>
+        <version>4.1</version>
         <interface>
             <name>IKeymasterDevice</name>
             <instance>default</instance>
@@ -681,6 +681,16 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         <interface>
             <name>IHypnusUtil</name>
             <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.oppo.hardware.radio.opporadio</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IOppoRadio</name>
+            <instance>oppo_slot1</instance>
+            <instance>oppo_slot2</instance>
         </interface>
     </hal>
     <hal format="hidl">
