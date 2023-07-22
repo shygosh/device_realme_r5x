@@ -42,13 +42,9 @@ persist.data.df.dev_name=rmnet_usb0
 # Graphics
 ro.sf.lcd_density=320
 persist.hwc.enable_vds=1
-debug.cpurend.vsync=false
 
 # Force triple frame buffers
 ro.surface_flinger.max_frame_buffer_acquired_buffers=3
-
-# VSync
-debug.cpurend.vsync=false
 
 # Media
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml
