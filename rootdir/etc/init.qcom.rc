@@ -1022,7 +1022,7 @@ on late-init
     # Start services for bootanim
     start surfaceflinger
     start bootanim
-    start vendor.hwcomposer-2-3
+    start vendor.hwcomposer-2-4
     start vendor.configstore-hal
     start vendor.qti.hardware.display.allocator
 
@@ -1126,7 +1126,7 @@ service vendor.hwcomposer-2-4 /vendor/bin/hw/android.hardware.graphics.composer@
     group graphics drmrpc
     capabilities SYS_NICE
     onrestart restart surfaceflinger
-    writepid /dev/cpuset/system-background/tasks
+    writepid /dev/cpuset/foreground/tasks
     socket pps stream 0660 system system
 
 # NFC
