@@ -196,6 +196,7 @@ ro.media.recorder-max-base-layer-fps=60
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
 ro.vendor.perf.scroll_opt=true
+vendor.perf.gestureflingboost.enable=true
 
 # Radio
 persist.dbg.volte_avail_ovr=1
