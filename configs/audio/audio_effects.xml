@@ -32,7 +32,6 @@
         <library name="visualizer_hw" path="libqcomvisualizer.so"/>
         <library name="proxy" path="libeffectproxy.so"/>
         <library name="audio_pre_processing" path="libqcomvoiceprocessing.so"/>
-        <library name="audiosphere" path="libasphere.so"/>
     </libraries>
     <effects>
         <effectProxy name="visualizer" library="proxy" uuid="1d0a1a53-7d5d-48f2-8e71-27fbd10d842c">
@@ -41,7 +40,6 @@
         </effectProxy>
         <effect name="aec" library="audio_pre_processing" uuid="0f8d0d2a-59e5-45fe-b6e4-248c8a799109"/>
         <effect name="ns" library="audio_pre_processing" uuid="1d97bb0b-9e2f-4403-9ae3-58c2554306f8"/>
-        <effect name="audiosphere" library="audiosphere" uuid="184e62ab-2d19-4364-9d1b-c0a40733866c"/>
     </effects>
     <postprocess>
     </postprocess>
