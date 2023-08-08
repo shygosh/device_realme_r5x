@@ -28,3 +28,9 @@ ro.lmk.swap_util_max=95
 ro.lmk.swap_free_low_percentage=5
 ro.lmk.filecache_min_kb=0
 ro.lmk.stall_limit_critical=100
+
+# Volume steps
+ro.config.alarm_vol_steps=15
+ro.config.system_vol_steps=15
+ro.config.media_vol_steps=15
+ro.config.vc_call_vol_steps=15
