@@ -9,17 +9,19 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
-# Inherit some evolution stuff.
-$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
-TARGET_BOOT_ANIMATION_RES := 720
+# Inherit some superior stuff.
+$(call inherit-product, vendor/superior/config/common.mk)
+BUILD_WITH_GAPPS := false
 
 # Inherit from r5x device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
+TARGET_BOOT_ANIMATION_RES := 720
+WITH_GMS := false
 
 PRODUCT_BRAND := realme
 PRODUCT_DEVICE := r5x
 PRODUCT_MANUFACTURER := realme
-PRODUCT_NAME := evolution_r5x
+PRODUCT_NAME := superior_r5x
 PRODUCT_MODEL := Realme 5 Series
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo

@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_r5x.mk
+    $(LOCAL_DIR)/superior_r5x.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_r5x-user \
-    evolution_r5x-userdebug \
-    evolution_r5x-eng
+    superior_r5x-user \
+    superior_r5x-userdebug \
+    superior_r5x-eng
