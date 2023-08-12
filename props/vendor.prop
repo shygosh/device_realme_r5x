@@ -163,8 +163,8 @@ debug.hwui.use_hint_manager=true
 debug.hwui.target_cpu_time_percent=10
 debug.hwui.renderer=skiagl
 debug.hwui.skia_atrace_enabled=false
-debug.renderengine.backend=skiaglthreaded
-debug.stagefright.renderengine.backend=threaded
+debug.renderengine.backend=skiagl
+debug.stagefright.renderengine.backend=gles
 renderthread.skia.reduceopstasksplitting=true
 
 # DRM
