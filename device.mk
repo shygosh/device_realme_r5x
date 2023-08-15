@@ -612,7 +612,7 @@ PRODUCT_PACKAGES += \
     libadf.vendor \
     libstdc++.vendor \
     vendor.qti.hardware.camera.device@1.0.vendor \
-    libtinyxml.vendor
+    libtinyxml
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/realme/r5x/r5x-vendor.mk)
