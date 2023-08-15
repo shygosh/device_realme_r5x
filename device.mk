@@ -605,7 +605,7 @@ PRODUCT_PACKAGES += \
     android.hardware.radio@1.5.vendor \
     android.hardware.secure_element@1.2.vendor \
     android.hardware.sers@2.1.vendor \
-    android.hardwareundtrigger@2.3.vendor \
+    android.hardware.soundtrigger@2.3.vendor \
     android.hardware.tetheroffload.control@1.0.vendor \
     android.hardware.thermal@2.0.vendor \
     android.hardware.usb.gadget@1.1.vendor \
