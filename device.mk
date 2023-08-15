@@ -382,12 +382,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     CarrierConfigOverlayR5x \
     TelephonyOverlayR5x \
-    SettingsProviderOverayR5x \
+    SettingsProviderOverlayR5x \
     SettingsOverlayR5x \
     SystemUIOverlayR5x \
     WifiOverlayR5x \
     FrameworksOverlayR5x \
-    TetheringCOverlayR5x \
+    TetheringOverlayR5x \
     BluetoothOverlayR5x \
     ApertureOverlayR5x
 
