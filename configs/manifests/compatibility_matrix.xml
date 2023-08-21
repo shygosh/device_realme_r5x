@@ -93,15 +93,6 @@
             <instance>deviceinfo</instance>
         </interface>
     </hal>
-    <hal format="hidl" optional="true"> 
-        <name>vendor.egistec.hardware.fingerprint</name> 
-        <transport>hwbinder</transport>
-        <version>4.0</version> 
-        <interface>
-            <name>IBiometricsFingerprintRbs</name> 
-            <instance>default</instance>
-        </interface>
-    </hal> 
     <hal format="aidl" optional="true">
         <name>android.hardware.graphics.composer3</name>
         <interface>
