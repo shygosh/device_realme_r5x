@@ -88,3 +88,5 @@ persist.sys.fuse.passthrough.enable=true
 
 # Disable MTE Async for system server
 arm64.memtag.process.system_server=off
+
+ro.droidx.maintainer=shygosh

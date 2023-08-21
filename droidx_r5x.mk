@@ -9,19 +9,20 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
-# Inherit some superior stuff.
-$(call inherit-product, vendor/superior/config/common.mk)
-BUILD_WITH_GAPPS := false
+# Inherit some droidx stuff.
+$(call inherit-product, vendor/droidx/config/common_full_phone.mk)
+DROIDX_BUILD_TYPE := OFFICIAL
+DROIDX_GAPPS := true
 
 # Inherit from r5x device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 TARGET_BOOT_ANIMATION_RES := 720
-WITH_GMS := false
+WITH_GMS := true
 
 PRODUCT_BRAND := realme
 PRODUCT_DEVICE := r5x
 PRODUCT_MANUFACTURER := realme
-PRODUCT_NAME := superior_r5x
+PRODUCT_NAME := droidx_r5x
 PRODUCT_MODEL := Realme 5 Series
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
