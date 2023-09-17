@@ -9,7 +9,6 @@ OVERRIDE_PRODUCT_COMPRESSED_APEX := false
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    hardware/google/interfaces \
     vendor/qcom/opensource/commonsys-intf/display \
     vendor/qcom/opensource/wfd-commonsys \
     vendor/nxp/opensource/pn5xx
@@ -383,12 +382,9 @@ PRODUCT_PACKAGES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power-service.r5x-libperfmgr \
-    android.hardware.power.stats@1.0-service.pixel \
+    android.hardware.power-service-qti \
+    android.hardware.power.stats@1.0-service.mock \
     libqti-perfd-client
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
 
 # Protobuf
 PRODUCT_PACKAGES += \
