@@ -94,6 +94,7 @@ BOARD_KERNEL_CMDLINE := console=ttyMSM0,115200n8 \
     earlycon=msm_geni_serial,0x4a90000 \
     loop.max_part=7 \
     cgroup.memory=nokmem,nosocket \
+    autogroup=1 \
     androidboot.android_dt_dir=/non-existent \
     androidboot.boot_devices=soc/4744000.sdhci \
     androidboot.init_fatal_reboot_target=recovery \
