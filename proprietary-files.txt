@@ -68,6 +68,19 @@ vendor/lib64/libqtigef.so
 vendor/lib64/soundfx/libgaudiosolmusicone_hw.so
 vendor/lib64/soundfx/libgaudiosolmusicone_sw.so
 
+# Audio ACDB
+vendor/etc/acdbdata/19631/adsp_avs_config.acdb
+vendor/etc/acdbdata/19631/Bluetooth_cal.acdb
+vendor/etc/acdbdata/19631/Codec_cal.acdb
+vendor/etc/acdbdata/19631/General_cal.acdb
+vendor/etc/acdbdata/19631/Global_cal.acdb
+vendor/etc/acdbdata/19631/Handset_cal.acdb
+vendor/etc/acdbdata/19631/Hdmi_cal.acdb
+vendor/etc/acdbdata/19631/Headset_cal.acdb
+vendor/etc/acdbdata/19631/Speaker_cal.acdb
+vendor/etc/acdbdata/19631/workspaceFile.qwsp
+vendor/etc/acdbdata/adsp_avs_config.acdb
+
 # Audio-Hardware
 vendor/lib/hw/audio.primary.trinket.so
 vendor/lib/libaudioEngineerTest.so
