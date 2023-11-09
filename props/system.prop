@@ -89,4 +89,7 @@ persist.sys.fuse.passthrough.enable=true
 # Disable MTE Async for system server
 arm64.memtag.process.system_server=off
 
+# Brightness Curve
+persist.sys.brightness.low.gamma=true
+
 ro.droidx.maintainer=shygosh
